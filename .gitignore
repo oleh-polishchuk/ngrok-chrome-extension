@@ -1,0 +1,13 @@
+# IDE
+.idea
+*.iml
+
+# Package manager
+node_modules
+
+# OS
+.DS_Store
+
+# Build
+dist
+ngrok-chrome-extension.zip

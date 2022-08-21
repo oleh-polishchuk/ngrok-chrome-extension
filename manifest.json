@@ -1,0 +1,39 @@
+{
+    "manifest_version": 3,
+    "name": "Ngrok Web Interface Change",
+    "version": "1.0",
+    "description": "This extensions alters the look of an ngrok web interface page.",
+    "icons": {
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "author": "oleh.polishchuk.ck@gmail.com",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://127.0.0.1:4040/*"
+            ],
+            "css": [
+                "content.css"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "matches": [
+                "http://127.0.0.1:4040/*"
+            ],
+            "resources": [
+                "content.css"
+            ],
+            "images": [
+                "icon16.png",
+                "icon32.png",
+                "icon48.png",
+                "icon128.png"
+            ]
+        }
+    ]
+}

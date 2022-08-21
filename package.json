@@ -1,0 +1,24 @@
+{
+  "name": "ngrok-chrome-extension",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "sh scripts/build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleh-polishchuk/ngrok-chrome-extension.git"
+  },
+  "keywords": [
+    "ngrok",
+    "chrome",
+    "extension"
+  ],
+  "author": "oleh.polishchuk.ck@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oleh-polishchuk/ngrok-chrome-extension/issues"
+  },
+  "homepage": "https://github.com/oleh-polishchuk/ngrok-chrome-extension#readme",
+  "description": ""
+}
